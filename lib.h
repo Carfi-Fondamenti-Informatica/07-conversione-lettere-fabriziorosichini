@@ -1,2 +1,9 @@
 
+#ifndef ESERCITAZIONE7_LIBRERIA_H
+#define ESERCITAZIONE7_LIBRERIA_H
+
+#endif //ESERCITAZIONE7_LIBRERIA_H
+
+
+
 char conversione (char c);
