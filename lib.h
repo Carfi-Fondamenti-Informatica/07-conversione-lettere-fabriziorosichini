@@ -1,2 +1,2 @@
 
- bool conversione(char &n);
+ bool conversione(char&n);
