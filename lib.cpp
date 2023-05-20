@@ -1,6 +1,6 @@
 #include "lib.h"
 
-bool conversione (char &n){
+bool conversione (char&n){
     if((n>='a' and  n<='z')or (n>='A' and n<='Z')){
         if(n>='a' and n<='z'){
             n= n-32;
