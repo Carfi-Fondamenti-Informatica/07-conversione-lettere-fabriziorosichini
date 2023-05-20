@@ -1,17 +1,13 @@
 #include <iostream>
 #include "lib.h"
-
 using namespace std;
-
 int main() {
-    char c_input;
-    cin>>c_input;
-   bool carattere=verifica(c_input);
-    if (carattere ) {
-        cout <<  conversione (c_input)<< endl;
+    char n;
+    cin>>n;
+    if (conversione (n)==true){
+        cout<<n;
     }else{
         cout<<"errore";
     }
-
     return 0;
 }
